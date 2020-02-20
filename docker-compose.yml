@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  server:
+    # command: cat /usr/local/apache2/conf/httpd.conf
+    image: gustavobcx/php-mssql:5.6.38-apache
+    volumes:
+      - ./httpd-vhosts.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
+      - ./project:/var/www/project
+    ports:
+      - 4201:80
