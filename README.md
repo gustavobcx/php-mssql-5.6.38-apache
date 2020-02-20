@@ -10,7 +10,8 @@
 
 ## Observações
 
-    Necessário configurar o compose file para os diretórios corretos onde se encontra o repositório do projeto e ajustar o arquivo de vhosts
+    Necessário configurar o apontamento do projeto no compose file
+    e ajustar o arquivo de vhosts
 
 ## Pendente
 
