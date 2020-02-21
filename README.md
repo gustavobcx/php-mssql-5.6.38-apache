@@ -2,7 +2,7 @@
 
 ## Build da imagem
 
- - docker build -t gustavobcx/php-mssql:5.6.38-apache .
+ - docker build -t gustavobcx/php-mssql-httpd:5.6.38 .
 
 ## Rodar o projeto
 
